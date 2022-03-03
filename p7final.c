@@ -38,8 +38,9 @@ fraction add_fractions(fraction f1, fraction f2)
 }
 int main()
 {
-  Fraction f;
-  f = input_fraction();
-  printf("%d/%d\n", f.num, f.den);
+  Fraction f1, f2, sum;
+  f1=input_fraction();
+  f2=input_fraction();
+  sum=add_fractions(f1,f2);
+  output(f1.f2, sum);
   return 0;
-}
