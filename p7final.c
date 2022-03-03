@@ -43,3 +43,4 @@ int main()
   sum = add_fraction(f1,f2);
   printf("%d/%d + %d/%d = %d/%d",f1.num,f1.den,f2.num,f2.den,sum.num,sum.den);
   return 0;
+}
